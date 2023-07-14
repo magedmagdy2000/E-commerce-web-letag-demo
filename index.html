@@ -1,0 +1,1669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta section -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=".........">
+	<meta name="author" content="...">
+    <title>lee tag</title>
+    <!-- Link Swiper's CSS for testimonial -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.4/swiper-bundle.css" integrity="sha512-3OuH/9eh0Sx9s/c23ZFG5SJb3GvBluF9cdGgQXhZyMyId4GP87W9QBgkHmocx+8kZaCZmXQUUuLOD4Q4f5PaWQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome include -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts include -->
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        
+    
+    
+    <!-- bootstrap css include -->
+    <link rel="stylesheet" href="main css/all.min.css">
+    <link rel="stylesheet" href="main css/bootstrap.min.css">
+
+    
+    
+    <!-- css style file include -->
+    <link rel="stylesheet" href="main css/style.css">
+
+</head>
+<body>
+
+    <!-- Navigation -->
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" width="115px"></a>
+        </div>
+
+                <!-- Navigation bar -->
+        <nav>
+            <ul id="menuitems" class="menu">
+
+                <li><a href="#">Home</a></li>
+                <li><a href="products/index.html" target="_blank">Products</a></li>
+
+                <!-- categories dropdown -->
+                <li class="dropdown"> 
+                    <a class="btn-secondary dropdown-toggle"  target="_blank" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Categories
+                    </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#" target="_blank">Action</a></li>
+                    <li><a class="dropdown-item" href="#" target="_blank">Another action</a></li>
+                <li><a class="dropdown-item" href="#" target="_blank">Something </a></li>
+                    </ul>
+                </li><!-- categories dropdown end-->
+
+
+                <li><a href="#" target="_blank">Wish List</a></li>
+                <li><a href="#" target="_blank">Account</a></li>
+                <li><a href="#" target="_blank">Contact Us</a></li>
+
+                <!-- more mega menu -->
+                <li class="dropdown mega_menu">
+                    <a class="btn-secondary dropdown-toggle"  target="_blank" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">more..</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+
+                    <div class="row">
+
+                        <div class="col-sm-6 col-lg-3 mb-resp">
+                            <h5>category-1</h5>
+                            <a class="dropdown-item" href="#" target="_blank">Action-1</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-2</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-3</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-4</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-5</a>
+                        </div>
+
+
+                        <div class="col-sm-6 col-lg-3 mb-resp">
+                            <h5>category-2</h5>
+                            <a class="dropdown-item" href="#" target="_blank">Action-1</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-2</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-3</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-4</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-5</a>
+                        </div>
+
+
+                        <div class="col-sm-6 col-lg-3 mb-resp">
+                            <h5>category-3</h5>
+                            <a class="dropdown-item" href="#" target="_blank">Action-1</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-2</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-3</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-4</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-5</a>
+                        </div>
+
+
+                        <div class="col-sm-6 col-lg-3 mb-resp">
+                            <h5>category-4</h5>
+                            <a class="dropdown-item" href="#" target="_blank">Action-1</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-2</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-3</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-4</a>
+                            <a class="dropdown-item" href="#" target="_blank">Action-5</a>
+                        </div>
+
+                    </div> <!-- row end -->
+
+                </div>
+                </li><!-- more mega menu end -->
+
+                
+                <li><a href="#" target="_blank">Login</a></li>
+
+            </ul>
+        </nav> <!-- Navigation bar end-->
+
+
+        <!-- cart icon -->
+        <a href="#" class="cart-logo" target="_blank"><i class="fa-solid fa-bag-shopping"></i></a>
+        <!-- toggle menu icon -->
+        <a href="#"><img src="images/menu.png " class="menu-icon" onclick="menutoggle()"></a>
+
+    </div>  <!-- navbar end -->
+    </div> <!-- container end -->
+    </div>  <!-- header end -->
+
+
+    <!-- search  -->
+    <section class="search-section">
+        <!-- order icon -->
+        <a href="#" target="_blank" class="side-icons"><i class="fa-solid fa-truck-fast order-icon"></i></a>
+        <div class="wrap">
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="What are you looking for?">
+            <!-- search icon -->
+            <button type="submit" class="searchButton">
+            <i class="fa fa-search"></i>
+            </button>
+
+        </div>  <!-- search end -->
+        </div>  <!-- wrap end-->
+
+        <!-- favorite icon -->
+        <a href="#" target="_blank" class="side-icons"><i class="fa-solid fa-heart fav-icon"></i></a>
+
+    </section> <!-- search section end -->
+
+
+    <!-- bootstrap main slider -->
+    <div class="main slider">
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <!-- carousel content -->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="10000">
+                <a href="#"><img src="images/pngegg (1).png" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="#" class="btn-1">Explore Now</a>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+                </div> <!-- carousel-item end -->
+
+                <div class="carousel-item" data-bs-interval="2000">
+                    <a href="#"><img src="images/pngegg (1).png" class="d-block w-100" alt="..."></a>
+                    <div class="carousel-caption d-none d-md-block">
+                    <a href="#" class="btn-1">Explore Now</a>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+                </div> <!-- carousel-item end -->
+
+                <div class="carousel-item">
+                    <a href="#"><img src="images/pngegg (1).png" class="d-block w-100" alt="..."></a>
+                    <div class="carousel-caption d-none d-md-block">
+                    <a href="#" class="btn-1">Explore Now</a>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+                </div> <!-- carousel-item end -->
+
+                <div class="carousel-item">
+                    <a href="#"><img src="images/pngegg (1).png" class="d-block w-100" alt="..."></a>
+                    <div class="carousel-caption d-none d-md-block">
+                    <a href="#" class="btn-1">Explore Now</a>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+                </div> <!-- carousel-item end -->
+                
+            </div> <!--carousel-inner end-->
+
+            <!-- carousel-control-prev -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <!-- carousel-control-next -->
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+            </div>  <!-- carousel -->
+
+    </div> <!-- main slider end -->
+
+
+    <!-- advert section -->
+    <div class="ads">
+        <div class="small-container">
+        <div class="row">
+            <!-- content -->
+            <div class="col-3">
+                <img src="images/category-1.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="images/category-2.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="images/category-3.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="images/category-1.jpg" alt="">
+            </div>
+        </div><!-- row end -->
+    </div><!-- small-container end -->
+    </div><!-- advert section end -->
+
+
+    <!-- featured & latest products-->
+    <div class="small-container">
+
+    <!-- featured products -->
+
+        <h2 class="title">Featured Products</h2>
+
+        <div class="row">
+                <!-- content -->
+            <div class="card-1 col-4">
+                <div class="imgbx">
+                    <img src="/images/product-1.jpg" alt="">
+                    <!-- hover action -->
+                    <ul class="action">
+                        <li>
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                            <span>Add to Whishlist</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span>Add to cart</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                            <span>View Details</span>
+                        </li>
+                    </ul> <!-- action end -->
+                </div> <!-- imgbx end -->
+                <div class="content"> 
+                    <div class="productname">
+                        <h3>women's handbag </h3>
+                    </div> <!-- product name end -->
+                    <div class="price_rating">
+                        <h2>$13.45</h2>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>  <!-- rating end -->  
+                    </div>  <!-- price_rating end -->
+                </div> <!-- content end -->
+            </div> <!-- col-4 end -->
+
+
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-2.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+    
+
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-3.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+    
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-4.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+    
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-5.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+    
+
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-6.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+    
+
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-7.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+
+                <!-- content -->
+            <div class="card-1 col-4">
+                <div class="imgbx">
+                    <img src="/images/product-8.jpg" alt="">
+                    <!-- hover action -->
+                    <ul class="action">
+                        <li>
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                            <span>Add to Whishlist</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span>Add to cart</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                            <span>View Details</span>
+                        </li>
+                    </ul> <!-- action end -->
+                </div> <!-- imgbx end -->
+                <div class="content"> 
+                    <div class="productname">
+                        <h3>women's handbag </h3>
+                    </div> <!-- product name end -->
+                    <div class="price_rating">
+                        <h2>$13.45</h2>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>  <!-- rating end -->  
+                    </div>  <!-- price_rating end -->
+                </div> <!-- content end -->
+            </div> <!-- col-4 end -->
+
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-9.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+    
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-10.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+    
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-11.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+    
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-12.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+    
+        </div> <!-- row end -->
+
+            <!-- latest products -->
+
+        <h2 class="title">Latest Products</h2>
+
+        <div class="row">
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-5.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+    
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-6.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+                
+
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-7.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+                
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-8.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+    
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-9.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+                
+
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-10.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+                
+
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-11.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+                
+
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-12.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+    
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-1.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+                
+
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-2.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+    
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-3.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+                
+                <!-- content -->
+                <div class="card-1 col-4">
+                    <div class="imgbx">
+                        <img src="/images/product-5.jpg" alt="">
+                        <!-- hover action -->
+                        <ul class="action">
+                            <li>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <span>Add to Whishlist</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span>Add to cart</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span>View Details</span>
+                            </li>
+                        </ul> <!-- action end -->
+                    </div> <!-- imgbx end -->
+                    <div class="content"> 
+                        <div class="productname">
+                            <h3>women's handbag </h3>
+                        </div> <!-- product name end -->
+                        <div class="price_rating">
+                            <h2>$13.45</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>  <!-- rating end -->  
+                        </div>  <!-- price_rating end -->
+                    </div> <!-- content end -->
+                </div> <!-- col-4 end -->
+                
+
+        </div> <!-- row end -->
+
+    </div> <!-- small-container end -->
+
+
+    <!-- new section -->
+    <div class="n-section">
+        <div class="small-container">
+            <h2 class="title">Would You Need</h2>
+            <section class="about">
+                <div class="contentbx">
+                    <h2 class="heading">smart window</h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quasi excepturi repellendus ut, ab officia reiciendis quisquam 
+                        tempore sequi in voluptates quod inventore harum fuga, et aspernatur 
+                        minus a doloribus! Minus, recusandae neque, consequatur dolore 
+                        consequuntur eveniet aspernatur totam voluptas qui necessitatibus 
+                        tempora nulla omnis illo. <br><br>Lorem ipsum dolor sit amet, consectetur 
+                        adipisicing elit. Aut, architecto. Sapiente error ea eaque nostrum a 
+                        ipsum iusto similique necessitatibus laboriosam perspiciatis alias
+                        recusandae accusantium aspernatur obcaecati odit quibusdam labore tempore 
+                        possimus itaque provident, nihil consequuntur. Expedita ad nobis possimus 
+                        officiis repellendus eligendi voluptates blanditiis?</p>
+                        <a href="#" class="btn-1">Explore Now &#8594;</a>
+                </div><!-- contentbx end -->
+                <!-- the image in css -->
+                <div class="imgbx"></div> 
+            </section> <!-- about end -->
+        </div> <!-- small-container end -->
+    </div> <!-- n-section end -->
+
+
+    <!--new products card  -->
+    <div class="n-section">
+
+        <div class="small-container">
+
+                    <h2 class="title">Some originals</h2>
+
+        <div class="new-container row">
+                    <!-- content -->
+            <div class="card-2">
+                <div class="imgbx">
+                    <img src="images/diamond.png" draggable="false">
+                    <h2>diamond</h2>
+                </div> <!-- imgbx end -->
+                <div class="content">
+                    <a href="#">Buy Now</a>
+                </div> <!-- content end -->
+            </div> <!-- card-2 end -->
+
+            <div class="card-2">
+                <div class="imgbx">
+                    <img src="images/diamond.png" draggable="false">
+                    <h2>diamond</h2>
+                </div> <!-- imgbx end -->
+                <div class="content">
+                    <a href="#">Buy Now</a>
+                </div> <!-- content end -->
+            </div> <!-- card-2 end -->
+
+            <div class="card-2">
+                <div class="imgbx">
+                    <img src="images/diamond.png" draggable="false">
+                    <h2>diamond</h2>
+                </div> <!-- imgbx end -->
+                <div class="content">
+                    <a href="#">Buy Now</a>
+                </div> <!-- content end -->
+            </div> <!-- card-2 end -->
+
+            <div class="card-2">
+                <div class="imgbx">
+                    <img src="images/exclusive.png" draggable="false">
+                    <h2>diamond</h2>
+                </div> <!-- imgbx end -->
+                <div class="content">
+                    <a href="#">Buy Now</a>
+                </div> <!-- content end -->
+            </div> <!-- card-2 end -->
+
+            <div class="card-2">
+                <div class="imgbx">
+                    <img src="images/diamond.png" draggable="false">
+                    <h2>diamond</h2>
+                </div> <!-- imgbx end -->
+                <div class="content">
+                    <a href="#">Buy Now</a>
+                </div> <!-- content end -->
+            </div> <!-- card-2 end -->
+
+            <div class="card-2">
+                <div class="imgbx">
+                    <img src="images/flower.png" draggable="false">
+                    <h2>diamond</h2>
+                </div> <!-- imgbx end -->
+                <div class="content">
+                    <a href="#">Buy Now</a>
+                </div> <!-- content end -->
+            </div> <!-- card-2 end -->
+
+            <div class="card-2">
+                <div class="imgbx">
+                    <img src="images/diamond.png" draggable="false">
+                    <h2>diamond</h2>
+                </div> <!-- imgbx end -->
+                <div class="content">
+                    <a href="#">Buy Now</a>
+                </div> <!-- content end -->
+            </div> <!-- card-2 end -->
+
+            <div class="card-2">
+                <div class="imgbx">
+                    <img src="images/diamond.png" draggable="false">
+                    <h2>diamond</h2>
+                </div> <!-- imgbx end -->
+                <div class="content">
+                    <a href="#">Buy Now</a>
+                </div> <!-- content end -->
+            </div> <!-- card-2 end -->
+
+        </div>  <!-- new-container end -->
+
+        </div> <!-- small-container end -->
+
+    </div> <!-- n-section end -->
+
+
+    <!-- offer -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img">
+                </div> <!-- col-2 end -->
+                <div class="col-2">
+                    <!-- small description -->
+                    <p>Exclusively Available on RedStore</p> 
+                    <h1>Smart Band 4</h1>
+                    <!-- description -->
+                    <small>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Nihil libero nobis itaque distinctio atque mollitia in officiis, 
+                        aut beatae debitis!
+                    </small>
+                    <a href="#" class="btn-1">Buy Now &#8594;</a>
+                </div> <!-- col-2 end -->
+            </div> <!--row end -->
+        </div> <!-- small-container end -->
+    </div> <!-- offer end -->
+
+
+    <!-- testimonial -->
+    <div class="row small-container">
+    <div class="swiper mySwiper  testimonial">
+        <div class="swiper-wrapper">
+                        <!-- content -->
+                <div class="swiper-slide col-3">
+                    <!-- comment icon -->
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p> <!-- description -->
+                        Lorem ipsum, dolor sit amet consectetur 
+                        adipisicing elit. Perferendis soluta, 
+                        possimus cumque modi molestiae molestias?
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i> <!-- it mean half star -->
+                    </div> <!--rating end -->
+                    <img src="images/user-1.png"> <!-- user image -->
+                    <h3>mariam magdy</h3>
+                </div> <!-- swiper-slide end -->
+
+                <div class="swiper-slide col-3">
+                    <!-- comment icon -->
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p> <!-- description -->
+                        Lorem ipsum, dolor sit amet consectetur 
+                        adipisicing elit. Perferendis soluta, 
+                        possimus cumque modi molestiae molestias?
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <!-- it mean half star -->
+                    </div> <!--rating end -->
+                    <img src="images/user-2.png"> <!-- user image -->
+                    <h3>mariam magdy</h3>
+                </div> <!-- swiper-slide end -->
+
+                <div class="swiper-slide col-3">
+                    <!-- comment icon -->
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p> <!-- description -->
+                        Lorem ipsum, dolor sit amet consectetur 
+                        adipisicing elit. Perferendis soluta, 
+                        possimus cumque modi molestiae molestias?
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <!-- it mean half star -->
+                    </div> <!--rating end -->
+                    <img src="images/user-3.png"> <!-- user image -->
+                    <h3>mariam magdy</h3>
+                </div> <!-- swiper-slide end -->
+
+                <div class="swiper-slide col-3">
+                    <!-- comment icon -->
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p> <!-- description -->
+                        Lorem ipsum, dolor sit amet consectetur 
+                        adipisicing elit. Perferendis soluta, 
+                        possimus cumque modi molestiae molestias?
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <!-- it mean half star -->
+                    </div> <!--rating end -->
+                    <img src="images/user-1.png"> <!-- user image -->
+                    <h3>mariam magdy</h3>
+                </div> <!-- swiper-slide end -->
+
+                <div class="swiper-slide col-3">
+                    <!-- comment icon -->
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p> <!-- description -->
+                        Lorem ipsum, dolor sit amet consectetur 
+                        adipisicing elit. Perferendis soluta, 
+                        possimus cumque modi molestiae molestias?
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <!-- it mean half star -->
+                    </div> <!--rating end -->
+                    <img src="images/user-2.png"> <!-- user image -->
+                    <h3>mariam magdy</h3>
+                </div> <!-- swiper-slide end -->
+
+                <div class="swiper-slide col-3">
+                    <!-- comment icon -->
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p> <!-- description -->
+                        Lorem ipsum, dolor sit amet consectetur 
+                        adipisicing elit. Perferendis soluta, 
+                        possimus cumque modi molestiae molestias?
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <!-- it mean half star -->
+                    </div> <!--rating end -->
+                    <img src="images/user-3.png"> <!-- user image -->
+                    <h3>mariam magdy</h3>
+                </div> <!-- swiper-slide end -->
+
+                <div class="swiper-slide col-3">
+                    <!-- comment icon -->
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p> <!-- description -->
+                        Lorem ipsum, dolor sit amet consectetur 
+                        adipisicing elit. Perferendis soluta, 
+                        possimus cumque modi molestiae molestias?
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <!-- it mean half star -->
+                    </div> <!--rating end -->
+                    <img src="images/user-1.png"> <!-- user image -->
+                    <h3>mariam magdy</h3>
+                </div> <!-- swiper-slide end -->
+
+                <div class="swiper-slide col-3">
+                    <!-- comment icon -->
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p> <!-- description -->
+                        Lorem ipsum, dolor sit amet consectetur 
+                        adipisicing elit. Perferendis soluta, 
+                        possimus cumque modi molestiae molestias?
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <!-- it mean half star -->
+                    </div> <!--rating end -->
+                    <img src="images/user-2.png"> <!-- user image -->
+                    <h3>mariam magdy</h3>
+                </div> 
+                
+                <!-- swiper-slide end -->
+
+        </div> <!-- swiper-wrapper end -->
+
+        <!-- swiper direction buttons -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>  
+
+    </div> <!-- swiper end -->
+</div> <!-- row end -->
+
+
+    <!-- brands -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <!-- content -->
+                <div class="col-5">
+                    <img src="images/logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-philips.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/asus.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/Toshiba logo.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/Sharp .png">
+                </div>
+                <div class="col-5">
+                    <img src="images/Sharp .png">
+                </div>
+                <div class="col-5">
+                    <img src="images/google.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/google.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/google.png">
+                </div>
+            </div> <!-- row end -->
+        </div> <!-- small-container end -->
+    </div> <!-- brands end -->
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <!-- content -->
+            <div class="row">
+                
+                <!-- company details -->
+                <div class="footer-col-1"> 
+                    <img src="images/logo.png">
+                    <p>Lorem ipsum dolor sit amet Lorem 
+                        adipisicing elit. orem ipsum dolor sit amet., odit </p>
+                </div> <!-- footer-col-1 end -->
+
+
+                <div class="footer-col-2">
+                    <h3>Fast Links</h3>
+                    <ul>
+                        <li> <a href="#">Coupons</a></li>
+                        <li> <a href="#">Blog Post</a></li>
+                        <li> <a href="#">Return Policy</a></li>
+                    </ul>
+                    </div> <!-- footer-col-2 end -->
+
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li> <a href="#">Contact</a></li>
+                        <li> <a href="#">About</a></li>
+                        <li> <a href="#">Return Policy</a></li>
+                        <li> <a href="#">Shipping Policy</a></li>
+                    </ul>
+                </div> <!-- footer-col-3 end -->
+
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul class="social">
+                        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-whatsapp"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-github"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+                    </ul> <!-- social end -->
+                </div> <!-- footer-col-4 end -->   
+            </div> <!-- row end -->
+        </div> <!-- container end-->
+            <hr>
+            <!-- company and copyrights -->
+            <p class="copyrights"> Copyright &#169; <a href="index.html">Lee Tag</a> - 2022 All Rights Reserved | Powered by <a href="#" target="_blank">EGYdesigner</a></p>
+    </div> <!-- footer end -->
+
+
+    <!-- popup -->
+    <div class="popup">
+        <div class="contentbox">
+            <!-- div for close -->
+            <div class="close"></div>
+            <div class="imgbox">
+                <img src="images/gift.png" alt="">
+            </div> <!-- imgbox end -->
+            <div class="content">
+                <div class="social-offer">
+                <h3>speacial offer</h3>
+                <h2>80<sup>%</sup><span> off</span></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, eius.</p>
+                <a href="#" class="btn-1">get the deal</a>
+                </div> <!-- social-offer -->
+            </div>  <!-- content end -->
+        </div>  <!-- contentbox end -->
+    </div> <!-- popup end -->
+
+    <!-- Swiper JS  for testimonial-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.4/swiper-bundle.min.js" integrity="sha512-0N/5ZOjfsh3niel+5dRD40HQkFOWaxoVzqMVAHnmAO2DC3nY/TFB7OYTaPRAFJ571IRS/XRsXGb2XyiFLFeu1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!--  Automatic show popup 3 seconds of page load-->
+    <script>
+        const popup = document.querySelector('.popup');
+        const close = document.querySelector('.close') 
+        window.onload = function(){
+            setTimeout(function(){
+                popup.style.display = "block";
+
+                //add some time delay to show popup
+            },3000 )
+        }
+
+        close.addEventListener('click', () => {
+                popup.style.display = "none";
+        })
+    </script>
+    
+    <!-- js for toggle menu -->
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        menuitems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(menuitems.style.maxHeight == "0px")
+            {
+                menuitems.style.maxHeight = "100px";
+            }
+            else
+            {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    <!-- Initialize Swiper for testimonial-->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                slidesPerGroup: 3,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                },
+                navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+
+
+
+        <!-- bootstrap js include -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script>
+
+</body>
+</html>
